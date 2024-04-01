@@ -20,7 +20,7 @@
 
 ### 1. 生成备份`/tmp/upload/backup.tar.gz`
 ```bash
-wget -O backup.run https://raw.githubusercontent.com/wukongdaily/OpenBackRestore/master/backup/backup.run && sh backup.run
+wget -O backup.run https://raw.githubusercontent.com/oceanxm/OpenBackRestore/master/backup/backup.run && sh backup.run
 ```
 > 备份仓库
 ```bash 
