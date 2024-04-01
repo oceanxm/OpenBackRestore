@@ -19,8 +19,8 @@ backup() {
     tar -czvf backup.tar.gz distfeeds.conf packages-list.txt overlay_backup.tar.gz
     # 清理临时文件
     rm -rf distfeeds.conf packages-list.txt overlay_backup.tar.gz
-    green "系统备份文件已保存至 /tmp/upload/backup.tar.gz"
-    light_magenta "请及时下载保存到电脑,恢复时使用系统——文件传输上传至/tmp/upload目录,再调用恢复脚本即可"
+    green "系统备份文件已保存至 /overlay/upper/opt/docker/tmp/upload/backup.tar.gz"
+    light_magenta "请及时下载保存到电脑,恢复时使用系统——文件传输上传至/overlay/upper/opt/docker/tmp/upload目录,再调用恢复脚本即可"
 }
 
 backup
