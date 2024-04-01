@@ -7,8 +7,8 @@ light_magenta() { echo -e "\033[95m\033[01m[NOTICE] $1\033[0m"; }
 light_yellow() { echo -e "\033[93m\033[01m[NOTICE] $1\033[0m"; }
 
 backup() {
-    mkdir -p /tmp/upload
-    cd /tmp/upload
+    mkdir -p /overlay/upper/opt/docker/tmp/upload
+    cd /overlay/upper/opt/docker/tmp/upload
     # 备份软件源配置
     cp /etc/opkg/distfeeds.conf distfeeds.conf
     # 备份已安装软件列表
